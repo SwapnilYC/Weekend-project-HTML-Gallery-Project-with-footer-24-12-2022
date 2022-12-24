@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------------------------------------------------navbar-----------------------------------------------------------------------------------  */
+.nav-logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-flow i{
+    font-size: 2rem;
+}
+
+.nav-buttons a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+
+.nav-buttons a:hover{
+    color: #0A043C;
+}
+
+
+/* ---------------------------------------------------------------------gallery section-----------------------------------------------------------------------------------  */
+.heading{
+    margin-top: 4.5rem;
+}
+
+#heading-name{
+margin: 0.8rem;
+}
+
+/* ---------------------------------------------------------------------Footer section-----------------------------------------------------------------------------------  */
+
+.footer-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    border-top: 2px solid black;
+    background-color: #eaeef6be;
+    color: #0A043C;
+}
+
+
+.info{
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+.photo img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin: 1rem 1.2rem 1rem 1.5rem;
+    border-radius:5rem;
+}
+
+#accio-logo{
+    width: 8rem;
+    border-radius: 5rem;
+    margin: auto 1.2rem;
+}
+.accio-logo p{
+    font-size: 1.2rem;
+}
+
+.info1{
+    font-size: 1.5rem;
+}
+
+.info1 span{
+    color:red;
+    text-decoration: underline;
+}
+
+.info4 a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
