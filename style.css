@@ -22,8 +22,8 @@ body{
 }
 
 
-.nav-buttons a:hover{
-    color: #0A043C;
+.nav-buttons:hover > a{
+    color: #0A043C !important
 }
 
 
@@ -86,4 +86,8 @@ margin: 0.8rem;
 .info4 a{
     text-decoration: none;
     font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 800px){
+    .footer-container{flex-direction: column;}
 }
